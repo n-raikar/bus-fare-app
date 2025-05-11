@@ -6,7 +6,7 @@ import java.time.Instant;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TapTest {
+class TapTest {
 
     @Test
     void fromRowParseCsvRow() {
