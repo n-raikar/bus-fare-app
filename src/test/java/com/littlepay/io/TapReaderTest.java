@@ -31,6 +31,6 @@ class TapReaderTest {
         List<Tap> taps = new TapReader().read(f);
 
         assertEquals(6, taps.size());
-        assertEquals("Stop1", taps.getFirst().stopId());
+        assertEquals("Stop1", taps.get(0).stopId());
     }
 }
