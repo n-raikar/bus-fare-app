@@ -77,5 +77,6 @@
                 </executions>
             </plugin>
         </plugins>
+       <finalName>bus-fare-app</finalName>
     </build>
 </project>
